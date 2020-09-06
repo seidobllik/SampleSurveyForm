@@ -1,0 +1,72 @@
+html {
+  font-size: 10px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/13/20/53/skateboard-1091710_1280.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(50, 80, 50, .7);
+  max-width: 54%;
+  min-width: 430px;
+  margin: auto;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#survey-form {
+  text-align: center;
+  background-color: rgba(50, 80, 50, .7);
+  max-width: 50%;
+  min-width: 400px;
+  margin: auto;
+  padding: 2%;
+  font-size: 1.5rem;
+}
+
+div {
+  margin: -.1rem;
+  border: .1rem solid rgba(255, 255, 255, .2);
+  line-height: 0;
+  padding: 1rem;
+}
+
+#comments-area {
+  min-height: 4rem;
+  width: 95%;
+  resize: vertical;
+}
+
+button {
+  background-color: darkgreen;
+  color: white;
+  border: .1rem solid white;
+  padding: 1rem 4rem;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  header {
+    max-width: 100%;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  #survey-form {
+    max-width: 100%;
+    font-size: 1rem;
+    margin: 0;
+  }  
+}

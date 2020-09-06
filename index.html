@@ -1,0 +1,65 @@
+<header>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">This is a sample survey.</p>
+</header>
+ <form id="survey-form">
+  <div>
+    <label for="name" id="name-label">Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+  </div>
+  <div>
+    <label for="email" id="email-label">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+  </div>
+  <div>
+    <label for="number" id="number-label">Age (optional)</label>
+    <input type="number" name="age" id="number" placeholder="Age" min="0" max="110">
+  </div>
+  <div>
+    <p>Select an option from the dropdown:</p>
+    <select name="dropdown" id="dropdown" required>
+      <option disabled selected value>Select an option</option>
+      <option value="One">One</option>
+      <option value="Two">Two</option>
+      <option value="Three">Three</option>
+      <option value="Four">Four</option>
+    </select>
+  </div>
+  <div>
+    <p>Select a radio button below:</p>
+    <label><input 
+      type="radio"
+      name="radio-input"
+      value="1" checked>1</label>
+    <label><input 
+      type="radio"
+      name="radio-input"
+      value="2">2</label>
+    <label><input 
+      type="radio"
+      name="radio-input"
+      value="3">3</label>
+  </div>
+  <div>
+    <p>Select any of the checkboxes below:</p>
+    <label><input
+      type="checkbox"
+      name="checkbox-input"
+      value="0001">0001</label>
+    <label><input
+      type="checkbox"
+      name="checkbox-input"
+      value="0010">0010</label>
+    <label><input
+      type="checkbox"
+      name="checkbox-input"
+      value="0011">0011</label>
+  </div>
+  <div>
+    <p>Please provide any additional comments:</p>
+    <textarea id="comments-area" name="comments" placeholder="Enter additional comments..."></textarea>
+  </div>
+  <div>
+    <button type="submit" id="submit">Submit</button>
+  </div>
+</form>
